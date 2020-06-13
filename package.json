@@ -1,0 +1,31 @@
+{
+  "name": "firefox-gnome-dictionary-lookup",
+  "version": "0.1.0",
+  "description": "Look up words in GNOME Dictionary from Firefox",
+  "scripts": {
+    "format": "stylelint --fix **/*.css",
+    "prerelease": "node scripts/build.js",
+    "release": "standard-version"
+  },
+  "author": "Payson Wallach <payson@paysonwallach.com>",
+  "license": "GPL-3.0",
+  "devDependencies": {
+    "@commitlint/cli": "^8.3.5",
+    "@commitlint/config-conventional": "^8.3.4",
+    "husky": "^4.2.5",
+    "nunjucks": "^3.2.1",
+    "standard-version": "^8.0.0",
+    "stylelint": "^13.6.0"
+  },
+  "husky": {
+    "hooks": {
+      "commit-msg": "commitlint -E HUSKY_GIT_PARAMS",
+      "pre-commit": "npm run format"
+    }
+  },
+  "standard-version": {
+    "scripts": {
+      "precommit": "npm run prerelease"
+    }
+  }
+}
