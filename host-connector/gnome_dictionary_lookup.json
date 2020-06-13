@@ -1,0 +1,7 @@
+{
+  "name": "gnome_dictionary_lookup",
+  "description": "Look up words in GNOME Dictionary from Firefox",
+  "path": "/home/paysonwallach/.mozilla/native-messaging-hosts/gnome_dictionary_lookup.py",
+  "type": "stdio",
+  "allowed_extensions": [ "gnome-dictionary-lookup@paysonwallach.com" ]
+}
