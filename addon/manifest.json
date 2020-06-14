@@ -6,6 +6,7 @@
   "background": {
     "scripts": ["lookup.js"]
   },
+  "default_locale": "en",
   "icons": {
     "16": "icon.svg",
     "24": "icon.svg",

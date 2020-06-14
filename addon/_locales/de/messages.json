@@ -1,0 +1,14 @@
+{
+  "extensionName": {
+    "message": "macOS-Lexikonsuche",
+    "description": "Name of the extension"
+  },
+  "extensionDescription": {
+    "message": "Wählen Sie Wörter aus und schlagen Sie mit der macOS-App „Lexikon“ für sie nach.",
+    "description": "Description of the extension"
+  },
+  "contextMenuItemTitle": {
+    "message": "„%s“ im Lexikon nachschlagen",
+    "description": "The title of the contextual menu item that the user clicks to look up a word"
+  }
+}

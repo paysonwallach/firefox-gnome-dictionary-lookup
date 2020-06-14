@@ -1,0 +1,14 @@
+{
+  "extensionName": {
+    "message": "Cercare in macOS Dizionario",
+    "description": "Name of the extension"
+  },
+  "extensionDescription": {
+    "message": "Seleziona parole e cercale in l’app Dizionario di macOS.",
+    "description": "Description of the extension"
+  },
+  "contextMenuItemTitle": {
+    "message": "Cerca “%s” in Dizionario",
+    "description": "The title of the contextual menu item that the user clicks to look up a word"
+  }
+}
