@@ -1,4 +1,5 @@
 {
+  "private": true,
   "name": "gnome-dictionary-lookup-web-extension",
   "description": "Look up words in GNOME Dictionary from your browser.",
   "license": "GPL-3.0",
